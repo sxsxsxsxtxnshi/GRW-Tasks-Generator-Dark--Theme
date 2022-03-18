@@ -1,0 +1,39 @@
+.hidden {
+    display: none !important;
+}
+.hiddenTransition {
+    opacity: 0;
+    z-index: -1;
+}
+$textColorDark:rgba(255, 255, 255, 0.8);
+$primaryBgColorDark:rgba(0, 0, 0, 0.6);
+
+$textColorLight:rgba(0,0,0,0.8);
+$primaryBgColorLight:rgba(255, 255, 255, 0.6);
+$fontWeight: 500; 
+$fontWeightSemiBold: 600;
+$clickScale:0.9;
+$listGap:0.35em;
+%borderRadius {
+    border-radius: 25px;
+}
+%uncopyable {
+    user-select: none;
+}
+%undragable {
+    pointer-events: none;
+}
+%link {
+    color: #000;
+    text-decoration: underline;
+    font-weight: $fontWeight;
+}
+
+//screensWidth
+$width2k: 2560px;
+$laptop_L: 1440px;
+$laptop: 1024px;
+$tablet: 768px;
+$mobile_L:426px;
+$mobile_M:375px;
+$mobile_S:320px;
