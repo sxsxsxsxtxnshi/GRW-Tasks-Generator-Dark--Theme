@@ -138,7 +138,7 @@ em, i {
 body {
   font-family: "Fredoka", sans-serif;
   color: rgba(255, 255, 255, 0.8);
-  background-image: url("/assets/img/bgs/bg26.webp");
+  background-image: url("../img/bgs/bg26.webp");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
